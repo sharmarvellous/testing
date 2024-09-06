@@ -4,6 +4,7 @@ If your local folder is not yet a Git repository, you need to initialize it.
 
 
 `cd /path/to/your/local/folder`
+
 `git init`
 
 2. Add the Remote Repository
@@ -26,6 +27,7 @@ Verify that the remote repository is correctly linked:
 To add all files in your local folder to the repository, run the following command:
 
 `git add .`
+
 This stages all the changes, including new files, for the next commit.
 
 5. Commit the Changes
@@ -33,9 +35,11 @@ This stages all the changes, including new files, for the next commit.
 Commit the staged files with a meaningful message:
 
 `git commit -m "Add initial files"`
+
 6. Push to the GitHub Repository
 
 To push the changes to your GitHub repository, use:
 
 `git push origin master`
+
 If you are working on a branch other than master, replace master with your branch name.
